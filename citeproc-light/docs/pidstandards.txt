@@ -1,0 +1,22 @@
+=====================================================
+EPIC - http://www.pidconsortium.eu/
+
+example epic id: 10.1594/ PANGAEA.667386 
+
+http://tools.ietf.org/html/rfc3651  for the Handle server spec
+
+
+=====================================================
+identifiers.org
+
+
+currently requires manual registration http://sourceforge.net/p/identifiers-org/new-collection/
+
+
+
+=====================================================
+LSID
+
+
+=====================================================
+https://rd-alliance.org/

@@ -18,21 +18,6 @@ import org.ecobima.citeproclight.record.CitationValueString;
  * 
  * Common functions for getting the CSLID of a file, or generating it
  * 
- * The extension could be .fileid (?) as it is vendor neutral
- * 
- * Should connect to and request IDs from several vendors.
- * Should also support checking what IDs are available, and requesting more from others. e.g. getting a DOI
- * 
- * EPIC - http://www.pidconsortium.eu/
- * identifiers.org  - currently requires manual registration http://sourceforge.net/p/identifiers-org/new-collection/
- * 
- * 
- * 
- * epic id: 10.1594/ PANGAEA.667386 (first part is some kind of server link :S )
- * http://tools.ietf.org/html/rfc3651  for the Handle server spec
- * 
- * 
- * 
  * @author Johan Henriksson
  *
  */

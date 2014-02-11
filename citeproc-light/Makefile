@@ -4,9 +4,8 @@ all:
 ######################## todo include R-light in jar
 
 jars:
-	jar cfv citeproclight.jar \
-	-C bin \
-	bin/org/ecobima/*/*/*.class
+	cd bin; jar cfv ../citeproclight.jar \
+	org/ecobima/*/*/*.class
 
 
 loc:
