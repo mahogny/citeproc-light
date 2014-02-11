@@ -19,13 +19,14 @@ import org.ecobima.citeproclight.record.CitationValueHash;
 public class BioHashRegistry
 	{
 	private static HashMap<String, Class<? extends BioHashAlgorithm>> methods=new HashMap<String, Class<? extends BioHashAlgorithm>>();
-
 	static
 		{
 		register(RawFileHash.summarymethod, RawFileHash.class);
 		register(FastaHash.summarymethod, FastaHash.class);
 		}
-	
+
+	public static String defaultAlgorithm="SHA-256";
+
 	
 	public static void register(String method, Class<? extends BioHashAlgorithm> cl)
 		{
@@ -54,14 +55,30 @@ public class BioHashRegistry
 	
 	
 	
-	
 
+	/**
+	 * Compute all hashes (default values)
+	 */
 	public static List<CitationValueHash> computeHash(File f)
 		{
-		return computeHash(f, "SHA-512");
+		return computeHash(f, defaultAlgorithm, new HashFeedback()
+			{
+			@Override
+			public boolean shouldCancel()
+				{
+				return false;
+				}
+			@Override
+			public void progress(double s)
+				{
+				}
+			});
 		}
 	
-	public static List<CitationValueHash> computeHash(File f, String hashalgo)
+	/**
+	 * Compute all hashes
+	 */
+	public static List<CitationValueHash> computeHash(File f, String hashalgo, HashFeedback feedback)
 		{
 		LinkedList<CitationValueHash> hashes=new LinkedList<CitationValueHash>();
 
@@ -72,7 +89,7 @@ public class BioHashRegistry
 			try
 				{
 				algo.init(hashalgo);
-				if(algo.computeForFile(f))
+				if(algo.computeForFile(f, feedback))
 					hashes.add(algo.getHash());
 				}
 			catch (IOException e)
@@ -81,7 +98,6 @@ public class BioHashRegistry
 				}
 			}
 
-		
 		return hashes;
 		}
 	

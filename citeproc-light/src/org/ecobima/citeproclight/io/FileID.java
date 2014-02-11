@@ -26,9 +26,19 @@ public class FileID
 	public static String fileEnding=".fileid";
 	
 	private File localFile;
-	private CitationRecord rec;
+	private CitationRecord rec=new CitationRecord();
 	
-	
+
+	/**
+	 * Constructor
+	 * 
+	 * @param file  Which file (not the FILEID file)
+	 */
+	public FileID(File file)
+		{
+		this.localFile=file;
+		}
+
 	/**
 	 * Get which file the IDFILE is for
 	 */
@@ -67,14 +77,15 @@ public class FileID
 			if(!f.getName().endsWith(fileEnding))
 				f=getIDfileFor(f);
 
+			File localfile=new File(f.getParentFile(), f.getName().substring(0,f.getName().length()-fileEnding.length()));
+			
 			//FILEID file exists
 			if(f.exists())
 				{
-				FileID n=new FileID();
+				FileID n=new FileID(localfile);
 				
 				InputStream is=new FileInputStream(f);
 				n.rec=JSONCSLReader.parse(is);
-				n.localFile=new File(f.getParentFile(), f.getName().substring(0,f.getName().length()-fileEnding.length()));
 				
 				return n;
 				}
@@ -82,18 +93,6 @@ public class FileID
 		return null;
 		}
 	
-	
-	/**
-	 * Create an empty IDFILE for a given file. Does not write anything to disk
-	 */
-	public static FileID createEmptyIdFor(File f)
-		{
-		FileID n=new FileID();
-		n.localFile=f;
-		n.rec=new CitationRecord();
-		return n;
-		}
-
 	
 	/**
 	 * Write an IDFILE for the given file

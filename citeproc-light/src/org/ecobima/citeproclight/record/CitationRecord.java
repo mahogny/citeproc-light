@@ -47,6 +47,7 @@ public class CitationRecord
 	public static final String TYPE_ARTICLE = "article";
 	public static final String TYPE_BOOK = "book";
 	public static final String TYPE_CHAPTER = "chapter";
+	public static final String TYPE_DATASET = "dataset";
 	//etc
 
 	
@@ -268,6 +269,11 @@ public class CitationRecord
 	public void addHash(CitationValueHash hash)
 		{
 		addArray(CitationRecord.VAR_HASH, hash);
+		}
+	
+	public void addAuthor(CitationValueName val)
+		{
+		addArray(CitationRecord.VAR_AUTHOR, val);
 		}
 	
 	}

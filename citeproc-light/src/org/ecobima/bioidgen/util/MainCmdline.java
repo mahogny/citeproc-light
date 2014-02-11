@@ -103,7 +103,7 @@ public class MainCmdline
 	 */
 	private static FileID create(File f) throws IOException
 		{
-		FileID fid=FileID.createEmptyIdFor(f);
+		FileID fid=new FileID(f);
 		
 		for(CitationValueHash h:BioHashRegistry.computeHash(fid.getLocalFile()))
 			fid.addHash(h);

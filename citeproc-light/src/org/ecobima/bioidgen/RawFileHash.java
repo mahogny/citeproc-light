@@ -53,14 +53,33 @@ public class RawFileHash implements BioHashAlgorithm
 		}
 
 
-	public boolean computeForFile(File f)
+	public boolean computeForFile(File f, HashFeedback feedback)
 		{
 		try
 			{
 			if(!f.exists())
 				throw new IOException("No such file");
+			long tot=f.length();
 			FileInputStream fs=new FileInputStream(f);
-			addData(fs);
+//			addData(fs);
+			
+			
+			long pos=0;
+			byte[] buffer = new byte[1024];
+			int len;
+			while ((len = fs.read(buffer))>0)
+				{
+				digest.update(buffer, 0, len);
+				pos+=len;
+				if(feedback.shouldCancel())
+					{
+					fs.close();
+					return false;
+					}
+				feedback.progress(pos/(double)tot);
+				}
+
+			
 			fs.close();
 			return true;
 			}

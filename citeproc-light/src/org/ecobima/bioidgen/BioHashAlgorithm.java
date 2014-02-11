@@ -10,6 +10,6 @@ public interface BioHashAlgorithm
 	public void init(String hashalgo) throws IOException;
 	public CitationValueHash getHash();
 	
-	public boolean computeForFile(File f);
+	public boolean computeForFile(File f, HashFeedback feedback);
 	public String getSummaryName();
 	}
