@@ -1,0 +1,9 @@
+{ "citationCluster" : { 
+"citationItems" : [ 
+
+{ "id" : "ITEM-1", "itemData" : { 
+
+"DOI" : "10.1038/nmeth.2478", "ISSN" : "1548-7105", "PMID" : "23722203", "author" : [ { "dropping-particle" : "", "family" : "Henriksson", "given" : "Johan", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Hench", "given" : "J\u00fcrgen", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Tong", "given" : "Yong Guang", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Johansson", "given" : "Arvid", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "Johansson", "given" : "David", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" }, { "dropping-particle" : "", "family" : "B\u00fcrglin", "given" : "Thomas R", "non-dropping-particle" : "", "parse-names" : false, "suffix" : "" } ], "container-title" : "Nature methods", "id" : "ITEM-1", "issue" : "6", "issued" : { "date-parts" : [ [ "2013", "6" ] ] }, "page" : "454-6", "publisher" : "Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.", "shortTitle" : "Nat Meth", "title" : "Endrov: an integrated platform for image analysis.", "type" : "article-journal", "volume" : "10" }, "uris" : [ "http://www.mendeley.com/documents/?uuid=07ce35e9-9009-4525-aafe-ad3b0f3c1574" ] } 
+
+
+], "properties" : { "noteIndex" : 0 }, "schema" : "https://github.com/citation-style-language/schema/raw/master/csl-citation.json" } }

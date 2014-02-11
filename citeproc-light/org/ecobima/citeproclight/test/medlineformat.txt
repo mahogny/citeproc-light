@@ -1,0 +1,85 @@
+
+PMID- 22577314
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DA  - 20120511
+DCOM- 20120823
+LR  - 20130529
+IS  - 1313-2970 (Electronic)
+IS  - 1313-2970 (Linking)
+IP  - 185
+DP  - 2012
+TI  - Antarctic Starfish (Echinodermata, Asteroidea) from the ANDEEP3 expedition.
+PG  - 73-8
+LID - 10.3897/zookeys.185.3078 [doi]
+AB  - This dataset includes information on sea stars collected during the ANDEEP3
+      expedition, which took place in 2005. The expedition focused on deep-sea stations
+      in the Powell Basin and Weddell Sea.Sea stars were collected using an Agassiz
+      trawl (3m, mesh-size 500microm), deployed in 16 stations during the ANTXXII/3
+      (ANDEEP3, PS72) expedition of the RV Polarstern. Sampling depth ranged from 1047 
+      to 4931m. Trawling distance ranged from 731 to 3841m. The sampling area ranges
+      from -41 degrees S to -71 degrees S (latitude) and from 0 to -65 degrees W
+      (longitude). A complete list of stations is available from the PANGAEA data
+      system (http://www.pangaea.de/PHP/CruiseReports.php?b=Polarstern), including a
+      cruise report (http://epic-reports.awi.de/3694/1/PE_72.pdf).The dataset includes 
+      50 records, with individual counts ranging from 1-10, reaching a total of 132
+      specimens.The andeep3-Asteroidea is a unique dataset as it covers an
+      under-explored region of the Southern Ocean, and that very little information was
+      available regarding Antarctic deep-sea starfish. Before this study, most of the
+      information available focused on starfish from shallower depths than 1000m. This 
+      dataset allowed to make unique observations, such as the fact that some species
+      were only present at very high depths (Hymenaster crucifer, Hymenaster
+      pellucidus, Hymenaster praecoquis, Psilaster charcoti, Freyella attenuata,
+      Freyastera tuberculata, Styrachaster chuni and Vemaster sudatlanticus were all
+      found below -3770m), while others displayed remarkable eurybathy, with very high 
+      depths amplitudes (Bathybiaster loripes (4842m), Lysasterias adeliae (4832m),
+      Lophaster stellans (4752m), Cheiraster planeta (4708m), Eremicaster crassus
+      (4626m), Lophaster gaini (4560m) and Ctenodiscus australis (4489m)).Even if the
+      number of records is relatively small, the data bring many new insights on the
+      taxonomic, bathymetric and geographic distributions of Southern starfish,
+      covering a very large sampling zone. The dataset also brings to light six
+      species, newly reported in the Southern Ocean.The quality of the data was
+      controlled very thoroughly, by means of on-board Polarstern GPS systems, checking
+      of identification by a renowned specialist (Prof. Michel Jangoux, Universite
+      Libre de Bruxelles), and matching to the Register of Antarctic Marine Species
+      (RAMS) and World Register of Marine Species (WoRMS). The data is therefore fit
+      for completing checklists, for inclusion in biodiversity patterns analysis, or
+      niche modeling. It also nicely fills an information gap regarding deep-sea
+      starfish from the Southern Ocean, for which data is very scarce at this time. The
+      authors may be contacted if any additional information is needed before carrying 
+      out detailed biodiversity or biogeographic studies.
+FAU - Danis, Bruno
+AU  - Danis B
+AD  - ANTABIF, 29, rue Vautier, 1000, Brussels, Belgium.
+FAU - Jangoux, Michel
+AU  - Jangoux M
+FAU - Wilmes, Jennifer
+AU  - Wilmes J
+LA  - eng
+PT  - Journal Article
+DEP - 20120423
+PL  - Bulgaria
+TA  - Zookeys
+JT  - ZooKeys
+JID - 101497933
+PMC - PMC3345795
+OID - NLM: PMC3345795
+OTO - NOTNLM
+OT  - ANDEEP cruises
+OT  - Asteroidea
+OT  - Biodiversity
+OT  - Census of Antarctic Marine Life
+OT  - Census of Marine Life
+OT  - Deep-Sea
+OT  - Polarstern
+OT  - Sea-stars
+OT  - Starfish
+EDAT- 2012/05/12 06:00
+MHDA- 2012/05/12 06:01
+CRDT- 2012/05/12 06:00
+PHST- 2012/03/13 [received]
+PHST- 2012/04/18 [accepted]
+PHST- 2012/04/23 [epublish]
+AID - 10.3897/zookeys.185.3078 [doi]
+PST - ppublish
+SO  - Zookeys. 2012;(185):73-8. doi: 10.3897/zookeys.185.3078. Epub 2012 Apr 23.
