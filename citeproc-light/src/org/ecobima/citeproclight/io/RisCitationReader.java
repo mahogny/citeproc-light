@@ -5,11 +5,11 @@ import java.io.InputStream;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
+import org.ecobima.citeproclight.LabnoteUtil;
 import org.ecobima.citeproclight.record.CitationRecord;
 import org.ecobima.citeproclight.record.CitationValueDate;
 import org.ecobima.citeproclight.record.CitationValueName;
 import org.ecobima.citeproclight.record.CitationValueString;
-import org.ecobima.labnote.client.LabnoteUtil;
 
 /**
  * RIS citation format. Originally for Endnote, Refman etc

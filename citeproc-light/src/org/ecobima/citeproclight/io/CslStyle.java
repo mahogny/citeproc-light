@@ -7,10 +7,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.StringTokenizer;
 
+import org.ecobima.citeproclight.LabnoteUtil;
 import org.ecobima.citeproclight.record.CitationRecord;
 import org.ecobima.citeproclight.record.CitationValueDate;
 import org.ecobima.citeproclight.record.CitationValueName;
-import org.ecobima.labnote.client.LabnoteUtil;
 import org.jdom2.Attribute;
 import org.jdom2.Document;
 import org.jdom2.Element;

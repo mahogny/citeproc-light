@@ -10,8 +10,8 @@ import net.minidev.json.JSONArray;
 import net.minidev.json.JSONObject;
 import net.minidev.json.JSONValue;
 
+import org.ecobima.citeproclight.LabnoteUtil;
 import org.ecobima.citeproclight.record.CitationRecord;
-import org.ecobima.labnote.client.LabnoteUtil;
 
 /**
  * Connection to the Mendeley Desktop client. 

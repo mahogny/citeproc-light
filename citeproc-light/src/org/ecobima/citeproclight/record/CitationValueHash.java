@@ -1,6 +1,7 @@
 package org.ecobima.citeproclight.record;
 
-import org.ecobima.labnote.util.Base64;
+import org.ecobima.citeproclight.io.Base64;
+
 
 /**
  * Hash value of biological data

@@ -11,18 +11,9 @@ jars:
 
 loc:
 	wc -l \
-	org/ecobima/*/*/*java
+	src/org/ecobima/*/*/*java
 
 
 gitaddall:
 	git add \
-	org/ecobima/*/*.txt \
-	org/ecobima/*/*java \
-	org/ecobima/*/*/*.csl \
-	org/ecobima/*/*/*.ris \
-	org/ecobima/*/*/*.bib \
-	org/ecobima/*/*/*.txt \
-	org/ecobima/*/*/*java 
-
-
-
+	src

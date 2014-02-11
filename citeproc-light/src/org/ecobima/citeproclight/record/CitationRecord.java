@@ -10,7 +10,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import org.ecobima.labnote.client.LabnoteUtil;
+import org.ecobima.citeproclight.LabnoteUtil;
+
 
 /**
  * 
