@@ -5,6 +5,7 @@ all:
 
 jars:
 	cd bin; jar cfv ../citeproclight.jar \
+	org/ecobima/*/*.class \
 	org/ecobima/*/*/*.class
 
 
